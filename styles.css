@@ -148,27 +148,26 @@ nav .logo a {
     background: #35424a;
     color: #ffffff;
     display: flex;
-    flex-direction: column; /* Makes elements stack vertically */
-    align-items: center;    /* Centers the items horizontally */
-}
+    flex-direction: column; 
+    align-items: center;   
 
 #hero img {
     width: 150px;
     height: auto;
     border-radius: 50%;
-    margin: 20px 0; /* Adds spacing around the image */
+    margin: 20px 0; 
 }
 
 /* Hero Section */
 #hero {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(135deg, #35424a, #ff4081); /* Gradient background */
+    background: linear-gradient(135deg, #35424a, #ff4081); 
     color: #ffffff;
     display: flex;
-    flex-direction: column; /* Makes elements stack vertically */
-    align-items: center;    /* Centers the items horizontally */
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    flex-direction: column; 
+    align-items: center;   
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); 
 }
 
 #hero img {
@@ -176,7 +175,7 @@ nav .logo a {
     height: auto;
     border-radius: 50%;
     margin: 20px 0;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow around image for depth */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Hero Text Styling */
@@ -190,7 +189,7 @@ nav .logo a {
 }
 
 .hero-container img {
-    flex: 0 0 160px; /* Image size */
+    flex: 0 0 160px;
 }
 
 .hero-container .text {
@@ -210,7 +209,7 @@ nav .logo a {
 .roles span {
     font-size: 1.3em;
     font-weight: bold;
-    color: #ffffff; /* White text color for roles */
+    color: #ffffff; 
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 5px 0;
@@ -230,18 +229,18 @@ nav .logo a {
 
 /* Hover Effect for Separator */
 .roles span:hover + .separator {
-    width: 80%; /* Expand line width on hover */
+    width: 80%; 
 }
 
 .roles span:hover {
-    color: #ff4081; /* Highlight the text on hover */
+    color: #ff4081; 
     transition: color 0.3s ease;
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .hero-container {
-        flex-direction: column; /* Stack text and image */
+        flex-direction: column;
     }
 
     .roles span {
@@ -249,21 +248,21 @@ nav .logo a {
     }
 
     .separator {
-        width: 70%; /* Adjust separator width on smaller screens */
+        width: 70%;
     }
 }
 
 /* To Reposition the Image */
 .hero-container {
     display: flex;
-    flex-wrap: wrap;         /* Ensures responsiveness */
-    align-items: center;     /* Vertically aligns content */
-    justify-content: center; /* Horizontally centers content */
-    gap: 20px;               /* Adds spacing between the image and text */
+    flex-wrap: wrap;         
+    align-items: center;     
+    justify-content: center; 
+    gap: 20px;            
 }
 
 .hero-container img {
-    flex: 0 0 150px; /* Image stays 150px wide */
+    flex: 0 0 150px; 
 }
 
 .hero-container .text {
@@ -299,16 +298,16 @@ h2 {
 #skills {
     padding: 60px 20px;
     background: url(pexels-bemistermister-2442888.jpg) no-repeat center center/cover;
-    color: #fff; /* White text on dark background */
+    color: #fff; 
     text-align: center;
-    background-size: cover; /* Ensures the image covers the section */
+    background-size: cover; 
 }
 
 #skills h2 {
     font-size: 2em;
     color: #f1f1f1;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds some depth */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 #skills p {
@@ -317,7 +316,7 @@ h2 {
     margin: 0 auto 40px;
     line-height: 1.6;
     color: #f1f1f1;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow for contrast */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
 }
 
 .skills-container {
@@ -343,7 +342,7 @@ h2 {
 
 .skill-card h3 {
     font-size: 1.5em;
-    color: #ff4081; /* Bright accent color for headings */
+    color: #ff4081;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
@@ -361,13 +360,13 @@ h2 {
 }
 
 .skill-card ul li strong {
-    color: #ff4081; /* Use accent color for skill names */
+    color: #ff4081; 
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .skills-container {
-        grid-template-columns: 1fr; /* Stacks the skill cards on smaller screens */
+        grid-template-columns: 1fr; 
     }
 
     #skills h2 {
@@ -393,7 +392,7 @@ h2 {
 }
 
 #projects h2 {
-    color: #00bcd4; /* Bright accent color */
+    color: #00bcd4; 
     font-size: 2em;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -443,7 +442,7 @@ h2 {
 }
 
 .project-card h3 {
-    color: #35424a; /* Dark grey for heading */
+    color: #35424a;
     font-size: 1.4em;
     margin: 15px 0;
 }
@@ -466,7 +465,7 @@ h2 {
 }
 
 .project-card a:hover {
-    color: #ff4081; /* Pink hover effect */
+    color: #ff4081; 
     text-decoration: underline;
 }
 
@@ -480,7 +479,7 @@ h2 {
     }
 
     .project-grid {
-        grid-template-columns: 1fr; /* Stacks project cards on mobile */
+        grid-template-columns: 1fr; 
     }
 
     .project-card {
@@ -517,7 +516,7 @@ h2 {
 
 /* Video Hover Effect */
 .project-card:hover .project-video {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05);
 }
 
 /* PowerPoint Section Text Styling */
@@ -548,9 +547,7 @@ h2 {
     background-color: #ff4081;
 }
 
-
 /* Contact Section */
-/* Contact Section Styling */
 #contact {
     padding: 40px 20px;
     background-color: #f9f9f9;
