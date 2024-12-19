@@ -141,33 +141,15 @@ nav .logo a {
 }
 
 /* Hero Section */
-/* Hero Section */
-#hero {
-    text-align: center;
-    padding: 60px 20px;
-    background: #35424a;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;   
-
-#hero img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    margin: 20px 0; 
-}
-
-/* Hero Section */
 #hero {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(135deg, #35424a, #ff4081); 
+    background: linear-gradient(135deg, #35424a, #ff4081); /* Gradient background */
     color: #ffffff;
     display: flex;
-    flex-direction: column; 
-    align-items: center;   
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); 
+    flex-direction: column; /* Makes elements stack vertically */
+    align-items: center;    /* Centers the items horizontally */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 #hero img {
@@ -175,7 +157,7 @@ nav .logo a {
     height: auto;
     border-radius: 50%;
     margin: 20px 0;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow around image for depth */
 }
 
 /* Hero Text Styling */
@@ -189,7 +171,7 @@ nav .logo a {
 }
 
 .hero-container img {
-    flex: 0 0 160px;
+    flex: 0 0 160px; /* Image size */
 }
 
 .hero-container .text {
@@ -209,7 +191,7 @@ nav .logo a {
 .roles span {
     font-size: 1.3em;
     font-weight: bold;
-    color: #ffffff; 
+    color: #ffffff; /* White text color for roles */
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 5px 0;
@@ -229,18 +211,18 @@ nav .logo a {
 
 /* Hover Effect for Separator */
 .roles span:hover + .separator {
-    width: 80%; 
+    width: 80%; /* Expand line width on hover */
 }
 
 .roles span:hover {
-    color: #ff4081; 
+    color: #ff4081; /* Highlight the text on hover */
     transition: color 0.3s ease;
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .hero-container {
-        flex-direction: column;
+        flex-direction: column; /* Stack text and image */
     }
 
     .roles span {
@@ -248,26 +230,8 @@ nav .logo a {
     }
 
     .separator {
-        width: 70%;
+        width: 70%; /* Adjust separator width on smaller screens */
     }
-}
-
-/* To Reposition the Image */
-.hero-container {
-    display: flex;
-    flex-wrap: wrap;         
-    align-items: center;     
-    justify-content: center; 
-    gap: 20px;            
-}
-
-.hero-container img {
-    flex: 0 0 150px; 
-}
-
-.hero-container .text {
-    flex: 1;
-    text-align: center;
 }
 
 /* Section Styles */
@@ -297,17 +261,17 @@ h2 {
 /* Skills Section */
 #skills {
     padding: 60px 20px;
-    background: url(pexels-bemistermister-2442888.jpg) no-repeat center center/cover;
-    color: #fff; 
+    background: url('pexels-bemistermister-2442888.jpg') no-repeat center center/cover;
+    color: #fff; /* White text on dark background */
     text-align: center;
-    background-size: cover; 
+    background-size: cover; /* Ensures the image covers the section */
 }
 
 #skills h2 {
     font-size: 2em;
     color: #f1f1f1;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds some depth */
 }
 
 #skills p {
@@ -316,7 +280,7 @@ h2 {
     margin: 0 auto 40px;
     line-height: 1.6;
     color: #f1f1f1;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow for contrast */
 }
 
 .skills-container {
@@ -342,7 +306,7 @@ h2 {
 
 .skill-card h3 {
     font-size: 1.5em;
-    color: #ff4081;
+    color: #ff4081; /* Bright accent color for headings */
     margin-bottom: 15px;
     text-transform: uppercase;
 }
@@ -360,13 +324,13 @@ h2 {
 }
 
 .skill-card ul li strong {
-    color: #ff4081; 
+    color: #ff4081; /* Use accent color for skill names */
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .skills-container {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr; /* Stacks the skill cards on smaller screens */
     }
 
     #skills h2 {
@@ -382,29 +346,13 @@ h2 {
     }
 }
 
-//* Projects Section Styling */
-#projects {
-    padding: 40px 20px;
-    background: #f4f7fb;
-    color: #333;
-    margin: 40px 0;
-    text-align: center;
+#projects{
+    
+    color: #fff;
+    font-size: ;
 }
-
-#projects h2 {
-    color: #00bcd4; 
-    font-size: 2em;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-#projects p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #666;
-    max-width: 800px;
-    margin: 20px auto;
+#projects h2{
+    font-size: 2.5em;
 }
 
 .project-grid {
@@ -412,26 +360,21 @@ h2 {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .project-card {
-    background-color: #fff;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    transition: all 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background: #f9f9f9;
     text-align: center;
-    color: #333;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .project-card img {
@@ -443,50 +386,22 @@ h2 {
 
 .project-card h3 {
     color: #35424a;
-    font-size: 1.4em;
-    margin: 15px 0;
-}
-
-.project-card p {
-    font-size: 1em;
-    color: #666;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
 }
 
 .project-card a {
     color: #00bcd4;
     text-decoration: none;
-    font-size: 1.1em;
     font-weight: bold;
+    font-size: 1.1em;
     margin-top: 10px;
     display: inline-block;
-    transition: color 0.3s ease;
 }
 
 .project-card a:hover {
-    color: #ff4081; 
     text-decoration: underline;
 }
-
-.project-card a:focus {
-    outline: none;
-}
-
-@media (max-width: 768px) {
-    #projects h2 {
-        font-size: 1.8em;
-    }
-
-    .project-grid {
-        grid-template-columns: 1fr; 
-    }
-
-    .project-card {
-        padding: 15px;
-    }
-}
-
 /* PowerPoint Project Card */
 .project-card {
     border: 1px solid #ddd;
@@ -516,7 +431,7 @@ h2 {
 
 /* Video Hover Effect */
 .project-card:hover .project-video {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
 /* PowerPoint Section Text Styling */
@@ -547,7 +462,7 @@ h2 {
     background-color: #ff4081;
 }
 
-/* Contact Section */
+/* Contact Section Styling */
 #contact {
     padding: 40px 20px;
     background-color: #f9f9f9;
@@ -640,7 +555,6 @@ form button:hover {
         padding: 12px;
     }
 }
-
 
 /* Footer Styles */
 footer {
