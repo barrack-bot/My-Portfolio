@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barrack Oluoch's portfolio showcasing skills in full-stack development, graphic design, and IT support.">
+  <meta name="author" content="Barrack Oluoch">
+  <meta property="og:title" content="Barrack Oluoch's Portfolio">
+  <meta property="og:description" content="Explore Barrack Oluoch's portfolio featuring his expertise in development, design, and IT support.">
+  <meta property="og:image" content="path-to-your-image.jpg">
+  <meta property="og:url" content="your-website-url.com">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -47,15 +54,15 @@
 </section>
 
 
- <!-- About Section -->
-<section id="about">
-  <h2>About Me</h2>
-  <p>Hi, I'm Barrack Oluoch, a dedicated and results-driven professional with a strong foundation in Information Technology. I specialize in <strong>Full-Stack Development</strong>, leveraging my expertise to create dynamic, user-friendly applications that drive business success.</p>
-  <p>With a keen eye for design and a passion for technology, I also excel in <strong>Graphic Design</strong>, transforming ideas into visually stunning digital assets. My skills in <strong>IT Support</strong> allow me to troubleshoot, maintain, and optimize technology systems to ensure seamless operations and maximum efficiency for clients and organizations.</p>
-  <p>I am continuously learning and expanding my knowledge in the ever-evolving IT landscape, driven by a commitment to excellence and a desire to make meaningful contributions to the tech community.</p>
-</section>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Barrack Oluoch, a dedicated and results-driven professional with a strong foundation in Information Technology. I specialize in <strong>Full-Stack Development</strong>, leveraging my expertise to create dynamic, user-friendly applications that drive business success.</p>
+    <p>With a keen eye for design and a passion for technology, I also excel in <strong>Graphic Design</strong>, transforming ideas into visually stunning digital assets. My skills in <strong>IT Support</strong> allow me to troubleshoot, maintain, and optimize technology systems to ensure seamless operations and maximum efficiency for clients and organizations.</p>
+    <p>I am continuously learning and expanding my knowledge in the ever-evolving IT landscape, driven by a commitment to excellence and a desire to make meaningful contributions to the tech community.</p>
+  </section>
 
- <!-- Skills Section -->
+<!-- Skills Section -->
 <section id="skills">
   <h2>Core Competencies</h2>
   <p>I bring a well-rounded set of technical skills that empower me to build impactful solutions. Below are the areas where I excel:</p>
@@ -100,8 +107,8 @@
   </div>
 </section>
 
-  <!-- Projects Section -->
-<section id="projects">
+<!-- Projects Section -->
+<section id="projects" style="background: url('pexels-bemistermister-2442888.jpg') no-repeat center center/cover;">
   <h2>My Projects</h2>
   <p>Over the years, I have worked on a variety of projects that showcase my skills in development, design, and IT. Below are some of my featured works that highlight my ability to create solutions that are both functional and visually appealing.</p>
   <div class="project-grid">
@@ -121,14 +128,14 @@
           <a href="https://github.com/barrack-bot/My-Portfolio/blob/main/IMG-20240806-WA0001.jpg" target="_blank">View Project</a>
       </div>
 
-    <!-- PowerPoint Section -->
+     <!-- PowerPoint Section -->
 <div class="project-card">
   <h3>PowerPoint Presentation</h3>
   
   <!-- Video Container for PowerPoint Overview -->
   <div class="video-container">
       <video class="project-video" autoplay loop muted>
-          <source src="your-video-link.mp4" type="video/mp4">
+          <source src="SUPER EDITING POWER 11.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
   </div>
@@ -137,11 +144,11 @@
   
   <!-- Download link for PPSX file -->
   <a href="https://drive.google.com/file/d/19XXIUY_eqScMLhmr_uxiAIpyKfSUIgrp/view?usp=drive_link" download>Download PowerPoint Show (PPSX)</a>
-
   
   <!-- View Project link (optional) -->
-  <a href="#GitHub">View Project</a>
+  <a href="SUPER EDITING POWER 11.mp4">View Project</a>
 </div>
+
 
       <!-- Project 4: E-commerce Web App -->
       <div class="project-card">
@@ -153,14 +160,14 @@
   </div>
 </section>
 
+
  <!-- Contact Section -->
 <section id="contact">
   <h2>Contact Me</h2>
   <p>If you'd like to reach out to me for collaboration or just to say hello, feel free to drop a message below!</p>
   
   <!-- Contact Form -->
-  <form method="POST" action="https://formsubmit.co/oluochbarrackonyango@gmail.com?redirect=https://yourwebsite.com/thank-you"
-  >
+  <form method="post" action="https://formsubmit.co/oluochbarrackonyango@gmail.com?redirect=https://submitted.html/thank-you">
       <div class="form-group">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required placeholder="Your Name">
@@ -180,15 +187,26 @@
   </form>
 </section>
 
-
   <!-- Footer -->
   <footer>
     <p>&copy; 2024 My Portfolio</p>
     <div>
-      <a href="https://github.com/barrack-bot/Eng.-Barrack" target="_blank">GitHub</a>
+      <a href="https://github.com/barrack-bot/My-Portfolio" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/barrack-oluoch-bb36b1268/" target="_blank">LinkedIn</a>
     </div>
   </footer>
+
   <script src="portfolio.js"></script>
+  <script>
+    // Smooth scrolling script
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+  </script>
 </body>
 </html>
